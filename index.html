@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>DailyDictation</title>
+		<script src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  		<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+		<!-- <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+		<!-- <link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css"> -->
+		<script src="./static/index.js"></script>
+		<link rel="stylesheet" type="text/css" href="./static/index.css">
+	</head>
+	<body>
+		<div class="container">
+			<nav>
+				<div class="nav_start">
+					DailyDictation
+				</div>
+				<div class="nav_menu">
+					<a href="#feature">五大功能</a>
+					<a href="#about">关于</a>
+					<a href="#update">更新日志</a>
+					<a href="#comment">留言</a>
+				</div>
+			</nav>
+
+			<div class="page">
+				<div class="main_desc">
+					<div class="main_desc_text">英语新闻听写</div>
+					<div class="main_desc_text">Anyone, Anytime, Anywhere</div>
+					<img src="./img/gh_a67104bd39ea_258.jpg">
+				</div>
+				<div class="main_mockup">
+					<img src="./img/mockup-index.png">
+				</div>
+			</div>
+
+			<div class="divider" id="feature">
+				<div class="divider_title">
+					五大功能
+				</div>
+			</div>
+
+			<div class="page">
+				<div class="sub_desc">
+					<div class="sub_desc_text">1. 个性化重复次数</div>
+				</div>
+				<div class="sub_mockup">
+					<img src="./img/mockup-setting.png">
+				</div>
+			</div>
+
+			<div class="page">
+				<div class="sub_mockup">
+						<img src="./img/mockup-NER.png">
+					</div>
+				<div class="sub_desc">
+					<div class="sub_desc_text">2. 专有名词提示</div>
+				</div>
+				
+			</div>
+
+			<div class="page">
+				<div class="sub_desc">
+					<div class="sub_desc_text">3. 自动校对结果</div>
+				</div>
+				<div class="sub_mockup">
+					<img src="./img/mockup-check.png">
+				</div>
+			</div>
+
+			<div class="page">
+				<div class="sub_mockup">
+					<img src="./img/mockup-vocab.png">
+				</div>
+				<div class="sub_desc">
+					<div class="sub_desc_text">4. 将生词加入单词本</div>
+				</div>
+				
+			</div>
+
+			<div class="page">
+				<div class="sub_desc">
+					<div class="sub_desc_text">5. 和群内小伙伴PK</div>
+				</div>
+				<div class="sub_mockup">
+					<img src="./img/mockup-share.png">
+				</div>
+			</div>
+
+			<div class="divider" id="about">
+				<div class="divider_title">
+					关于
+				</div>
+			</div>
+
+			<div class="page">
+				<div class="sub_desc text_center">
+					<div class="sub_desc_content_text">托福116分</div>
+					<div class="sub_desc_content_text">觉得听写超有用</div>
+					<div class="sub_desc_content_text">但是没有趁手的工具</div>
+					<div class="sub_desc_content_text">很难坚持每天听写</div>
+					<div class="sub_desc_content_text">于是自己写了一个</div>
+
+					<div class="break"></div>
+
+					<div class="sub_desc_content_text">我的其他小程序</div>
+					<div class="miniapps">
+						<div class="miniapp">
+							<img src="./img/gh_0c48c1f94e8b_258.jpg">
+							<div class="sub_desc_content_text">网页朗读+</div>
+						</div>
+						<div class="miniapp">
+							<img src="./img/gh_dcf074d31b8c_258.jpg">
+							<div class="sub_desc_content_text">全屏倒计时</div>							
+						</div>
+					</div>
+
+					<div class="break"></div>
+
+					<div class="sub_desc_content_text">我的公众号</div>
+					<img id="official_account_img" src="./img/official_account.png">
+				</div>
+			</div>
+
+
+			<div class="divider" id="update">
+				<div class="divider_title">
+					更新日志
+				</div>
+			</div>
+	
+			<div class="page">
+				<div class="sub_desc">
+					<div class="update_record">
+						<p class="update_title">v0.2.1 2019-11-29</p>
+						<p class="update_content">解决了安卓机器上复读次数出错的问题</p>
+						<p class="update_content">完善分享，群排名UI</p>
+						<p class="update_content">解决quote总显示同一条的bug</p>
+					</div>
+	
+	
+				</div>
+			</div>
+
+			<div class="divider" id="comment">
+				<div class="divider_title">
+					留言
+				</div>
+			</div>
+
+			<div id="gitalk-container"></div>
+
+
+		</div>
+
+		
+
+		
+		
+		
+	</body>
+</html>
